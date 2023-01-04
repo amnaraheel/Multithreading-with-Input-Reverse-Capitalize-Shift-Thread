@@ -1,1 +1,2 @@
 # Multithreading-with-Input-Reverse-Capitalize-Shift-Thread
+The input string function gets a string from the user, while the other thread functions take the string as an argument and perform their respective tasks. The main thread creates the input thread and starts it, then waits for it to finish. The input string function has string variable as global so it as being passed as an argument to the other thread functions when creating the other threads. Finally, it starts the other threads and waits for them to finish before exiting.
